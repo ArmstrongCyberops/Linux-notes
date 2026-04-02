@@ -16,10 +16,14 @@ Containing my Linux notes and commands as I learn the Linux fundamentals
 
 ## ls
 - List files and directories
+* ls -a # Shows all files including hidden ones.
+* ls -l # Displays "Long" list, inclduing file size, permissions, and last modified date.
+* ls -lh # Makes files sizes "Human readable".
 
 ## cd
 - Change directory
 Example : cd /home
+* cd ~ # Returns/resets your back to home directory
 
 ## mkdir
 - Create a new directory
