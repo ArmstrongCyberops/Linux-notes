@@ -29,6 +29,10 @@ Example : cd /home
 - Create a new directory
 Example : mkdir test-folder
 
+## touch
+- Create a new file
+Example : touch test-file
+
 ## rm
 - Remove files or directories
 Example : rm file.txt
