@@ -1,58 +1,58 @@
 # Linux-notes
-Containing my Linux notes and commands as I learn the Linux fundamentals
+Containing my Linux notes and commands as I learn the Linux fundamentals.
 
 ## What i'm learning
-- Basic Linux commands
-- File system navigation
-- File permissions
-- Package management
+- Basic Linux commands.
+- File system navigation.
+- File permissions.
+- Package management.
 
 -=-=-=-=-=-=-=-
 
 ## Basic commands
 
 ## pwd
-- Print working directory (shows your current location)
+- Print working directory (shows your current location).
 
 ## ls
-- List files and directories
-* ls -a # Shows all files including hidden ones.
-* ls -l # Displays "Long" list, inclduing file size, permissions, and last modified date.
-* ls -lh # Makes files sizes "Human readable".
+- List files and directories.
+- ls -a # Shows all files including hidden ones.
+- ls -l # Displays "Long" list, inclduing file size, permissions, and last modified date.
+- ls -lh # Makes files sizes "Human readable".
 
 ## cd
-- Change directory
-Example : cd /home
-* cd ~ # Returns/resets your back to home directory
+- Change directory.
+Example : cd /home.
+- cd ~ # Returns/resets your back to home directory.
 
 ## mkdir
-- Create a new directory
-Example : mkdir test-folder
+- Create a new directory.
+Example : mkdir test-folder.
 
 ## touch
-- Create a new file
-Example : touch test-file
+- Create a new file.
+Example : touch test-file.
 
 ## rm
-- Remove files or directories
-Example : rm file.txt
+- Remove files or directories.
+Example : rm file.txt.
 
 -=-=-=-=-=-=-=-=-
 
-## File navigation
+## File navigation.
 
 ## .
-- Current directory
+- Current directory.
 
 ## ..
-- Parent directory
+- Parent directory.
 
 -=-=-=-=-=-=-=-=-
 
 ## User Commands
 
 ## whoami
-- Displays the current logged-in user
+- Displays the current logged-in user.
 
 -=-=-=-=-=-=-=-=-
 
@@ -79,9 +79,13 @@ to the filesystem.
 - Where application binaries (the equivalent of executables in
 Microsoft Windows or applications in macOS) reside.
 
+## /lib
+- Where you’ll find libraries (shared programs that are similar to
+Windows DLLs).
+
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 
 ## notes
-I will continue to add to this repo as I progress my journey in Linux and cybersecurity
+I will continue to add to this repo as I progress my journey in Linux and cybersecurity.
 
