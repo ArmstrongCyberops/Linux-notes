@@ -54,7 +54,41 @@ Example : rm file.txt.
 ## whoami
 - Displays the current logged-in user.
 
+## man
+- An extension of help is man. You can type man before the command
+  to view the manual page for any chosen command, utility or application.
+
 -=-=-=-=-=-=-=-=-
+
+## Locating commands
+
+## locate
+- Type locate followed by a keyword what it is you want to find.
+  This command will go through your entire filesystem and locate every occurrence of that word.
+
+## sudo updatedb
+- To update the database the locate command uses.
+- Note that we updated the command with "sudo", this is important!.
+- If a command requires root (superuser) privileges, as updatedb does.
+- And you're logged in as a regular user.
+- You can provide the command with root privileges using the "sudo" command.
+- followed by your password.
+
+## whereis
+- To locate a binary.
+- This command returns not only the location of the binary.
+- But also its source and man page if they're available.
+
+## which
+- More specific locating command.
+- it returns the location of only the binaries in the PATH variable in Linux.
+
+## find
+- Most flexible of the searching commands.
+- It is capable of beginning in any designated directory and looking for a number
+of different parameters, including, of course, the filename, but also the date
+of creation or modification, the owner, the group, permissions, and the size.
+
 
 ## Important subdirectories
 
