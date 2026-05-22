@@ -29,6 +29,13 @@ Example : cd /home.
 - Create a new directory.
 Example : mkdir test-folder.
 
+## cat
+- The cat command is generally used for displaying the
+contents of a file, but it can also be used to create small files.
+- The cat command followed by a filename will display the contents of that
+file, but to create a file, we follow the cat command with a redirect, denoted
+with the > symbol, and a name for the file we want to create.
+
 ## touch
 - Create a new file.
 Example : touch test-file.
@@ -57,6 +64,19 @@ Example : rm file.txt.
 ## man
 - An extension of help is man. You can type man before the command
   to view the manual page for any chosen command, utility or application.
+
+## ps
+- Used to display information about processes running on the machine.
+
+## |
+- piping command.
+- It allows us to take the output of one command.
+- And use it as input for another command.
+
+Example: ps aux | grep apache2
+This command tells Linux to display all my services and then send that
+output to grep, which will look through the output for the keyword apache2
+and then display only the relevant output, thus saving me considerable time.
 
 -=-=-=-=-=-=-=-=-
 
@@ -118,6 +138,13 @@ Microsoft Windows or applications in macOS) reside.
 Windows DLLs).
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+## Filtering commands
+
+## grep
+- Filter to search for keywords
+- The grep command is often used when output is piped from one command to
+another.
 
 
 ## notes
