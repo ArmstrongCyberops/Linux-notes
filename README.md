@@ -26,8 +26,8 @@ Example : cd /home.
 - cd ~ # Returns/resets your back to home directory.
 
 ## mkdir
-- Create a new directory.
-Example : mkdir test-folder.
+- Creates a new directory.
+Example : mkdir newdirectory.
 
 ## cat
 - The cat command is generally used for displaying the
@@ -43,12 +43,43 @@ with the > symbol, and a name for the file we want to create.
 - and to check the newly update info of the file " cat hackingskils".
 
 ## touch
-- Create a new file.
-Example : touch test-file.
+- Creates a new file.
+Example : touch newfile.
+
+## cp
+- copies a chosen file.
+- This creates a duplicate of the file in
+the new location and leaves the old one in place.
 
 ## rm
-- Remove files or directories.
+- To remove a file.
 Example : rm file.txt.
+
+## rmdir
+- To remove a directory.
+Example : rmdir newdirectory
+
+- The command won't remove a directory that is not empty.
+- Linux will warn you saying it's not empty.
+- You will need to remove the contents of the directory.
+- Before removing the directory.
+- Also a good way to protect yourself from accidentally deleting items.
+
+- rm -r to remove the directory and alll content in one go.
+  example : rm -r newdirectory
+- Be wary using this command though!.
+- Very easy to delete files and directories by mistake.
+- Using rm -r in your home directory for instance.
+- Would delete every file and directory there!.
+
+## mv
+- Can be used to move a file or directory to a new location.
+- Or simply to give an existing file a new name.
+  Example : mv newfile newfile2
+
+
+
+
 
 -=-=-=-=-=-=-=-=-
 
