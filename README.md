@@ -35,6 +35,12 @@ contents of a file, but it can also be used to create small files.
 - The cat command followed by a filename will display the contents of that
 file, but to create a file, we follow the cat command with a redirect, denoted
 with the > symbol, and a name for the file we want to create.
+- Once you hit enter, linux will go into interactive mode and anything you type will
+  be added to the file.
+- To exit out of interactive mode, press Cntrl+D which will bring you back to linux.
+- To add more to a file we run the the same command but with two denotes this time ">>".
+- To overwrite information in the file we use a single donte again ">".
+- and to check the newly update info of the file " cat hackingskils".
 
 ## touch
 - Create a new file.
