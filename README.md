@@ -146,6 +146,14 @@ and then display only the relevant output, thus saving me considerable time.
 of different parameters, including, of course, the filename, but also the date
 of creation or modification, the owner, the group, permissions, and the size.
 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+##  Manipulation of text commands (whilst in a text file)
+
+## head
+- Lets you view the beginnig of a text.
+- (The first 10 lines by default).
+
 
 ## Important subdirectories
 
