@@ -153,6 +153,31 @@ of creation or modification, the owner, the group, permissions, and the size.
 ## head
 - Lets you view the beginnig of a text.
 - (The first 10 lines by default).
+-  adding a -(and a chosen number) after head allows you to choose the number of lines to view.
+Example : head -20 /etc/apache2/apache2.conf
+
+## tail
+- Lets you view the end of a text.
+- (The last 10 lines by default).
+-  adding a -(and a chosen number) after tails allows you to choose the number of lines to view.
+Example : tail -5 /etc/apache2/apache2.conf
+
+## nl
+- displays the text but with the lines numbered.
+
+## s
+- Performs a subsitution
+- you first give the term you are
+searching for (o) and then the term you want to replace it with (0), separated
+by a slash (/). The g flag tells Linux that you want the replacement
+performed globally. We then save the result to a new file named
+unix_passwords2.txt.
+
+Example : sed s/o/0/g /usr/share/metasploitframework/data/wordlists/unix_passwords.txt > /usr/share/m
+framework/data/wordlists/unix_passwords2.txt
+
+
+
 
 
 ## Important subdirectories
@@ -190,6 +215,11 @@ Windows DLLs).
 - Filter to search for keywords
 - The grep command is often used when output is piped from one command to
 another.
+
+## sed (stream editor)
+- lets you search for occurrences of a word or a text pattern
+and then perform some action on it.
+
 
 
 ## notes
