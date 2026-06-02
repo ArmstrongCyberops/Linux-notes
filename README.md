@@ -101,6 +101,29 @@ can not only scroll through a file at your leisure but also filter it for terms.
 - If you press the forward slash (/) key, less will let you search for
 terms in the file.
 
+Example : less /etc/apache2/apache2.conf
+# This is the main Apache server configuration fi
+# configuration directives that give the server i
+# See http://httpd.apache.org/docs/2.4/ for detai
+# the directives and /usr/share/doc/apache2/READM
+# hints.
+#
+#
+# Summary of how the Apache 2 configuration works
+# The Apache 2 web server configuration in Debian
+# upstream's suggested way to configure the web s
+# default Apache2 installation attempts to make a
+# virtual hosts, and extra configuration directiv
+# order to make automating the changes and admini
+# possible.
+/etc/apache2/apache.conf
+
+- In the bottom left of the screen that less has highlighted the path to
+the file. If you press the forward slash (/) key, less will let you search for
+terms in the file.
+- You can then hit "n" for next
+- To exit out of less or more press "q" or "Q", then enter.
+
 
 -=-=-=-=-=-=-=-=-
 
