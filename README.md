@@ -91,6 +91,17 @@ Example : rmdir newdirectory
 ## ..
 - Parent directory.
 
+## more
+- Displays a page of a file at a time and lets you page
+down through it using the ENTER key.
+
+## less
+- With less, you
+can not only scroll through a file at your leisure but also filter it for terms.
+- If you press the forward slash (/) key, less will let you search for
+terms in the file.
+
+
 -=-=-=-=-=-=-=-=-
 
 ## User Commands
